@@ -19,10 +19,10 @@
                     <h2 class="mb-4">Silahkan Pilih Kandidat Pilihanmu</h2>
 <div style="display: flex; justify-content: center; align-items: center;">
     <img class="img-fluid" style="width: 23%; height: 20%; margin-right: 17px;"
-        src="https://media.licdn.com/dms/image/D5603AQHTd19tZWNTaw/profile-displayphoto-shrink_800_800/0/1689779123544?e=2147483647&v=beta&t=J_QYSzDsKAvg289x5nlTW7xxyPJWdUGNE1FMkT51J_Y"
+        src="https://i.ibb.co/qNQYHQR/Paslon-1.png"
         alt="Paslon 1">
     <img class="img-fluid" style="width: 23%; height: 20%; margin-right: px;"
-        src="https://media.licdn.com/dms/image/D5603AQHTd19tZWNTaw/profile-displayphoto-shrink_800_800/0/1689779123544?e=2147483647&v=beta&t=J_QYSzDsKAvg289x5nlTW7xxyPJWdUGNE1FMkT51J_Y"
+        src="https://i.ibb.co/qNQYHQR/Paslon-1.png"
         alt="Paslon 2">
 </div>
 
