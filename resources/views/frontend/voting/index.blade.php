@@ -19,10 +19,10 @@
                     <h2 class="mb-4">Silahkan Pilih Kandidat Pilihanmu</h2>
 <div style="display: flex; justify-content: center; align-items: center;">
     <img class="img-fluid" style="width: 23%; height: 20%; margin-right: 17px;"
-        src="https://i.ibb.co/qNQYHQR/Paslon-1.png"
+        src="https://i.ibb.co/JFXGbWJ/Paslon-3.png"
         alt="Paslon 1">
     <img class="img-fluid" style="width: 23%; height: 20%; margin-right: px;"
-        src="https://i.ibb.co/qNQYHQR/Paslon-1.png"
+        src="https://i.ibb.co/hFMFg2Y/Paslon-5.png"
         alt="Paslon 2">
 </div>
 

@@ -15,6 +15,6 @@ class UserAuthController extends Controller
         if($cek){
             Auth::loginUsingId($cek->id, $remember = true);
         }
-        return back()->with('error','Nis Dan Token Tidak Sesuai');
+        return back()->with('error','Username dan Token tidak sesuai, periksa kembali atau lapor kepada panitia.');
     }
 }

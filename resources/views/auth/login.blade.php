@@ -5,7 +5,7 @@
     <div class="col-lg-6 col-12">
         <div id="auth-left">
             <h1 class="auth-title text-center">Masuk</h1>
-            <h4 class="text-center">Masukkan NIS dan Token dari Panitia</h4>
+            <h4 class="text-center">Masukkan Username dan Token</h4>
             <br>
             <form method="POST" action="{{ route('login_user') }}">
                 @csrf
@@ -23,6 +23,9 @@
     </div>
     <div class="password-toggle-icon" onclick="togglePasswordVisibility()">
         <i class="bi bi-eye"></i>
+    </div>
+    <div class="text-center mt-3">
+        <p><b>Informasi:</b> Angka nol = Ø, huruf o = O</p>
     </div>
 </div>
 

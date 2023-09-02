@@ -3,9 +3,6 @@
 <div class="row h-100 justify-content-center">
     <div class="col-lg-6 col-12">
         <div id="auth-left">
-            <div class="text-center mb-4">
-                <a href="index.html"><img src="{{ $app_logo }}" alt="Logo" width="100"></a>
-            </div>
             <h1 class="auth-title">Masuk Admin</h1>
              
             <form method="POST" action="{{ route('login_admin_post') }}">
