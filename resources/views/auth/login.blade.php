@@ -17,44 +17,15 @@
                     </div>
                 </div>
                 <div class="form-group position-relative has-icon-left mb-4">
-    <input type="text" class="form-control form-control-xl" placeholder="Token" name="token" id="passwordInput">
-    <div class="form-control-icon">
-        <i class="bi bi-shield-lock"></i>
-    </div>
-    <div class="password-toggle-icon" onclick="togglePasswordVisibility()">
-        <i class="bi bi-eye"></i>
-    </div>
-    <div class="text-center mt-3">
-        <p><b>Informasi:</b> Angka nol = Ø, huruf o = O</p>
-    </div>
-</div>
-
-<style>
-    .password-toggle-icon {
-        position: absolute;
-        top: 50%;
-        right: 10px;
-        transform: translateY(-50%);
-        cursor: pointer;
-    }
-</style>
-
-<script>
-    function togglePasswordVisibility() {
-        var passwordInput = document.getElementById("passwordInput");
-        var passwordToggleIcon = document.querySelector(".password-toggle-icon i");
-
-        if (passwordInput.type === "text") {
-            passwordInput.type = "password";
-            passwordToggleIcon.classList.remove("bi-eye-slash");
-            passwordToggleIcon.classList.add("bi-eye");
-        } else {
-            passwordInput.type = "text";
-            passwordToggleIcon.classList.remove("bi-eye");
-            passwordToggleIcon.classList.add("bi-eye-slash");
-        }
-    }
-</script>
+                    <input type="text" class="form-control form-control-xl" placeholder="Token" name="token" id="passwordInput">
+                    <div class="form-control-icon">
+                        <i class="bi bi-shield-lock"></i>
+                    </div>
+                    <div class="text-center mt-3">
+                        <p><b>Informasi:</b> Angka nol = Ø, huruf o = O</p>
+                    </div>
+                </div>
+                
                 @if (session('error'))
                 <div class="alert alert-light-warning color-warning">
                     {{ session('error') }}
