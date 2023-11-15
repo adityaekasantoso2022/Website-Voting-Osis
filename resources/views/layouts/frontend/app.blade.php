@@ -53,7 +53,7 @@
                     <div class="text">
                       <h6 class="user-dropdown-name">{{ auth()->user()->name }}</h6>
                       <p class="user-dropdown-status text-sm text-muted text-capitalize">
-                       Member
+                       Pemilih
                       </p>
                     </div>
                   </a>
